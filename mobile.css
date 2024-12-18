@@ -10,13 +10,7 @@
     overflow-x: hidden;
   }
 
-  .box1,
-  .box2,
-  .box3,
-  .box4 {
-    display: none;
-  }
-  .container2 {
+  .list-container-main {
     display: none;
   }
   .resbox4 {

@@ -6,177 +6,95 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  padding: 5px 14px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.box1 img {
-  width: 90px;
+.list-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 14px;
+}
+.list-logo img {
+  width: 140px;
   padding: 2px 11px;
 }
 
-.box2 ul {
+.list-text ul {
   display: flex;
+  gap: 2rem;
   list-style: none;
-  padding: 0 4vw 1vw 34vw;
+  font-size: 1.4rem;
 }
 
-.box2 li {
-  padding: 0 1vw;
-  font-size: 0.7rem;
-  height: 42px;
+.list-item-left {
   display: flex;
+  /* flex-direction: row; */
   align-items: center;
-  transition: background-color ease;
+  justify-content: space-between;
+  gap: 12px;
 }
-
-.box2 li:hover {
-  background-color: rgba(211, 211, 211, 0.411);
-  height: 42px;
-  border-radius: 22px;
-}
-.box3 {
+.list-item-2 {
   display: flex;
-  align-items: center;
-  padding: 0 7px 0 100px;
-  height: 40px;
+  gap: 15px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
 }
 
-.box3 h4 {
-  margin: 0;
-  padding: 0 10px;
-  font-size: 11px;
-}
-.box3 a {
-  color: black;
-  padding: 0 6px;
-  font-size: 14px;
-}
-.box3 h4:hover {
-  background-color: rgba(211, 211, 211, 0.411);
-  border-radius: 22px;
-}
-.airbnb-text {
-  display: hidden;
-}
-
-.box4 {
+.list-item-2-2 {
   display: flex;
   border: 1px solid lightslategray;
   border-radius: 50px;
   transition: background-color ease;
 }
-.box4 a {
+.list-item-2-2 a {
   padding: 8px 8px;
   font-size: 12px;
   color: black;
 }
-.box4:hover {
+
+.list-item-2-2:hover {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* search area */
-.container2 {
+/*  */
+/* search */
+.list-container-search {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 62%;
+  width: 64%;
   height: 12vh;
   border: 1px solid lightgray;
   border-radius: 50px;
   position: relative;
   left: 18%;
+  top: 35px;
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  overflow: hidden;
 }
-
-.search-area1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  transition: background-color ease;
-  padding: 0 10px;
-  font-size: 12px;
+.list-container-search h5 {
+  font-size: 15px;
 }
-.resContainer2 {
-  display: none;
+.list-container-search p {
+  color: grey;
 }
-
-#area01 h5 {
-  position: relative;
-  right: 36px;
-}
-#area01 p,
-#area02 p,
-#area03 p {
-  color: rgb(150, 147, 147);
-}
-
-#area04 h5 {
-  position: relative;
-  right: 55px;
-}
-
-#area04 p {
-  position: relative;
-  right: 38px;
-  color: rgb(150, 147, 147);
-}
-
-.area01,
-.area04 {
-  flex-basis: 33.33%;
-}
-
-.area02,
-.area03 {
-  flex-basis: 16.665%;
-}
-
-.search-area1:hover {
-  background-color: #a19f9f4d;
-}
-
-.container2 span {
-  color: lightgray;
-  font-size: 2rem;
-  margin: 0 -8px;
-  padding: 0 8px;
-}
-
-.search-area5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 33px;
-  height: 24px;
+.list-area05 {
   border-radius: 50%;
-  padding: 17px;
-  background-color: #fc474d;
-  position: absolute;
-  right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
+  padding: 12px;
+  background-color: rgb(228, 13, 85);
 }
-.search-area5 a {
-  font-size: 12px;
+.list-area05 a {
   color: white;
-}
-.divider {
-  top: 1.01rem;
-  position: relative;
-  border: 1px solid rgba(211, 211, 211, 0.445);
 }
 
 /* icon section */
-.icon-container {
+.list-icon-container {
   display: flex;
   gap: 23px;
   margin: 35px 33px;
@@ -244,7 +162,8 @@
 /*  */
 /*  */
 /*  */
-/* image section 01 */
+/* image section 01  */
+
 .img-container1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -272,17 +191,6 @@
   color: gray;
   padding: 2px;
 }
-
-/*  */
-
-/*  Past experiences portion */
-
-.experience {
-  position: relative;
-  left: 26px;
-  font-size: 12px;
-}
-
 /*  */
 /*  image section 02*/
 

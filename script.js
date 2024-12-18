@@ -1,6 +1,6 @@
 // icons slider
 const iconSlider = {
-  container: document.querySelector(".icon-container"),
+  container: document.querySelector(".list-icon-container"),
   leftArrow: document.querySelector(".left-arrow"),
   rightArrow: document.querySelector(".right-arrow"),
   scrollAmount: 600,

@@ -1,76 +1,20 @@
 @media only screen and (min-width: 1021px) and (max-width: 1280px) {
-  .box1 img {
-    width: 133px;
-    padding: 1px 5px;
-  }
-  #list1,
-  #list2 {
-    position: relative;
-    top: 60px;
-    font-size: 22px;
-    right: 45px;
-  }
-  .box3,
-  .box4 {
-    position: relative;
-    right: 3.9rem;
-  }
-  .box3 h4 {
-    position: relative;
-    font-size: 15px;
-    color: #333;
-    width: 150px;
-  }
-  .container2 {
-    position: relative;
-    top: 73px;
-    width: 80%;
-    left: 75px;
-    height: 22vh;
+  .list-logo {
+    width: 122px;
+    padding: 1px 3px;
   }
 
-  #area01 h5 {
+  .list-container-search {
     position: relative;
-    right: 20px;
-    font-size: 18px;
+    height: 7vh;
   }
-  #area01 p {
-    font-size: 15px;
-    font-weight: 300;
-  }
-  #area02 p,
-  #area03 p {
-    font-size: 15px;
-  }
-  #area02 h5,
-  #area03 h5 {
-    font-size: 15px;
-  }
-
-  #area04 h5 {
+  .list-icon-container {
     position: relative;
-    right: 55px;
-    font-size: 15px;
-  }
-
-  #area04 p {
-    position: relative;
-    right: 38px;
-    color: rgb(150, 147, 147);
-    font-size: 15px;
-  }
-
-  .divider {
-    position: relative;
-    top: 96px;
-  }
-  .icon-container {
-    position: relative;
-    top: 5rem;
+    top: 2.5rem;
   }
   .icon-box img {
-    height: 25px;
-    width: 26px;
+    height: 28px;
+    width: 29px;
     margin-bottom: 5px;
     object-fit: cover;
   }
@@ -90,13 +34,14 @@
   }
 
   /* image section 01 */
-
   .img-container1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 22px;
     width: 94%;
     margin: 30px auto;
+    position: relative;
+    bottom: 44px;
   }
   .one img {
     width: 100%;

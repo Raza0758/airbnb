@@ -1,72 +1,11 @@
 @media only screen and (min-width: 1280px) {
-  .box1 img {
+  .list-logo {
     width: 133px;
-    padding: 1px 5px;
-  }
-  #list1,
-  #list2 {
-    position: relative;
-    top: 60px;
-    font-size: 22px;
-    right: 45px;
-  }
-  .box3,
-  .box4 {
-    position: relative;
-    left: 4.8rem;
-  }
-  .box3 h4 {
-    position: relative;
-    font-size: 15px;
-    color: #333;
-    width: 150px;
-  }
-  .container2 {
-    position: relative;
-    top: 73px;
-    width: 80%;
-    left: 75px;
-    height: 22vh;
   }
 
-  #area01 h5 {
+  .list-icon-container {
     position: relative;
-    right: 20px;
-    font-size: 18px;
-  }
-  #area01 p {
-    font-size: 15px;
-    font-weight: 300;
-  }
-  #area02 p,
-  #area03 p {
-    font-size: 15px;
-  }
-  #area02 h5,
-  #area03 h5 {
-    font-size: 15px;
-  }
-
-  #area04 h5 {
-    position: relative;
-    right: 55px;
-    font-size: 15px;
-  }
-
-  #area04 p {
-    position: relative;
-    right: 38px;
-    color: rgb(150, 147, 147);
-    font-size: 15px;
-  }
-
-  .divider {
-    position: relative;
-    top: 96px;
-  }
-  .icon-container {
-    position: relative;
-    top: 5rem;
+    top: 3rem;
   }
   .icon-box img {
     height: 25px;
@@ -208,7 +147,6 @@
     color: gray;
     padding: 2px;
   }
-  /*  */
   /* footer */
 
   .footer {
