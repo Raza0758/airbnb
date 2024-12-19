@@ -42,7 +42,7 @@ function checkArrows(slider) {
   }
 }
 
-// event listener for touch (mobile and tab)
+// event listener for touch
 iconSlider.container.addEventListener("touchstart", (e) => {
   const touch = e.touches[0];
   const scrollPosition = iconSlider.container.scrollLeft;
